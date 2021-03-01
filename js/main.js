@@ -23,5 +23,5 @@ var addUnorederList = function(parentNode, firstClass, secondClass) {
 	parentNode.appendChild(unorderList)
 }
 
-addUnorederList(document.querySelector('.sec-main'), '', 'non-active-img');
+addUnorederList(document.querySelector('.sec-main'), '', '');
 addUnorederList(document.querySelector('.thumbnail'), 'active-thumb', '');

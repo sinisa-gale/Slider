@@ -1,4 +1,3 @@
-
 var indexCounter = 0;
 
 var switchImages = function(){
@@ -10,7 +9,5 @@ var switchImages = function(){
 	thumbImg[(indexCounter + 1) % 4 ].classList.toggle('active-thumb');
 	indexCounter++;
 }
-
-
 
 setInterval(switchImages, 5000);

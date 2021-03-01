@@ -26,8 +26,8 @@ main {
 
 .sec-main {
 	height: 400px;
-	margin: 20px 100px;
-	padding: 5px 0;
+	margin: 20px auto;
+	padding: 5px;
 	border: 2px solid gray;
 	overflow: hidden;
 }
@@ -42,7 +42,8 @@ main {
 }
 
 .thumbnail {
-	margin: 20px 100px;
+	width: 540px;
+	margin: 20px auto;
 }
 
 .thumbnail li {
