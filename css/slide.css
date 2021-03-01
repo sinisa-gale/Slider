@@ -1,0 +1,12 @@
+.sec-main {
+    width: 510px;
+}
+
+.sec-main ul {
+    display: flex;
+}
+
+.sec-main img {
+	margin: 0 5px;
+}
+
