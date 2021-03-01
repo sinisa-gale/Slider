@@ -1,12 +1,19 @@
 .sec-main {
-    width: 510px;
+    width: 500px;
+}
+
+.sec-main li {
+	margin-right: 5px;
 }
 
 .sec-main ul {
     display: flex;
+    
 }
 
 .sec-main img {
-	margin: 0 5px;
+	margin: 0;
 }
+
+
 
