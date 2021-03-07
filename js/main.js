@@ -25,3 +25,11 @@ var addUnorederList = function(parentNode, firstClass, secondClass) {
 
 addUnorederList(document.querySelector('.sec-main'), '', '');
 addUnorederList(document.querySelector('.thumbnail'), 'active-thumb', '');
+
+var indexCounter = 0;
+var thumbCounter = function() {
+	var thumbImg = document.querySelectorAll('.thumbnail img');
+	thumbImg[indexCounter % 4].classList.toggle('active-thumb');
+	thumbImg[(indexCounter + 1) % 4 ].classList.toggle('active-thumb');
+	indexCounter++;
+}

@@ -1,16 +1,24 @@
 
 
-var indexCounter = 0;
-
 var switchImages = function(){
+	
 	var secMain = document.querySelector('.sec-main li');
-	var thumbImg = document.querySelectorAll('.thumbnail img');
-
+	
+	
+	
+	document.querySelector('.sec-main ul').style.marginLeft = '-505px';
 	secMain.parentNode.appendChild(secMain);
-	thumbImg[indexCounter % 4].classList.toggle('active-thumb');
-	thumbImg[(indexCounter + 1) % 4 ].classList.toggle('active-thumb');
-	indexCounter++;
+	thumbCounter();
+	
+	
 }
 
+var toggle = function(){
+	document.querySelector('.sec-main ul').classList.toggle('anim');
+}
+
+toggle();
+setTimeout(switchImages,4000);
+//setTimeout(toggle, 5000);
 
 //setInterval(switchImages, 5000);
