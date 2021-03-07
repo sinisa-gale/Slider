@@ -1,3 +1,8 @@
+@keyframes sliding {
+	from {margin-left: 0px}
+	to {margin-left: -506px}
+}
+
 .sec-main {
     width: 500px;
 }
@@ -8,11 +13,15 @@
 
 .sec-main ul {
     display: flex;
-    
 }
 
 .sec-main img {
 	margin: 0;
+}
+
+.anim {
+    animation-name: sliding;
+    animation-duration: 1s;
 }
 
 
