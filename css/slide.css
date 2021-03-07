@@ -1,6 +1,6 @@
 @keyframes sliding {
 	from {margin-left: 0px}
-	to {margin-left: -506px}
+	to {margin-left: -505px}
 }
 
 .sec-main {
@@ -13,6 +13,7 @@
 
 .sec-main ul {
     display: flex;
+    margin-left: -505px;
 }
 
 .sec-main img {
